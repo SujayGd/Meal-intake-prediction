@@ -1,5 +1,5 @@
 
-# Installation
+# Installation instructions
 
   
 
@@ -26,7 +26,7 @@ Now install all the required libraries. Make sure you're inside the project dire
 
   
   
-  # Installation
+  # Running instructions
   
 Run program using python or python3
 
