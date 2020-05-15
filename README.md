@@ -4,8 +4,8 @@
 
 After cloning the repository, Make sure you have Python3 and pip install.
 
-- [https://www.python.org/downloads/](Installing python3)
-- [https://pip.pypa.io/en/stable/installing/](Installing pip)
+- [Installing python3](https://www.python.org/downloads/)
+- [Installing pip](https://pip.pypa.io/en/stable/installing/)
 
 Run the following command to install all the dependencies needed for the python code.
 
