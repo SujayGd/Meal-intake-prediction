@@ -2,26 +2,22 @@
 
 # Installation instructions
 
-  
-
 After cloning the repository, Make sure you have Python3 and pip install.
 
+- [https://www.python.org/downloads/](Installing python3)
+- [https://pip.pypa.io/en/stable/installing/](Installing pip)
 
-
--  [https://www.python.org/downloads/](https://www.python.org/downloads/)
- - https://pip.pypa.io/en/stable/installing/
-
-Now install all the required libraries. Make sure you're inside the project directory before running the command.
+Run the following command to install all the dependencies needed for the python code.
 
   
-
     pip install -r requirements.txt
 
 
-  # Pre - running instructions
-  Keep the input data csv file **in the same directory as `main.py`**
+# Pre - running instructions
+
+Keep the input data csv file **in the same directory as `main.py`**
   
-  # Running instructions
+# Running instructions
   
 Run program from inside the project directory using 
 
