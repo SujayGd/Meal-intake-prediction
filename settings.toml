@@ -1,0 +1,30 @@
+[default.files]
+meal_data_directory = './MealDataFolder'
+models = './Models'
+output_directory = './Outputs/'
+
+[default.features_rfc]
+features = ['maximum', 'mean', 'sd', 'abs_energy', 'fft']
+k = 15
+
+[default.features_dtc]
+features = ['median', 'mean', 'sd', 'lsam']
+k = 10
+
+[default.features_mlp]
+features = ['variance','mean', 'median', 'lsam', 'fft','linear_trend','cam','cbm','skew','sd','mean_change','time']
+k = 20
+
+[default.features_svm]
+features = ['variance','mean', 'median', 'lsam', 'fft','linear_trend','cam','cbm','skew','sd','mean_change','time']
+k = 20
+
+[default.classifier]
+k_fold = 10
+model_dict = [
+    ['randomForestClassifier', 'randomForestClassifier.pkl'],
+    ['decisionTreeClassifier', 'decisionTreeClassifier.pkl'],
+    ['supportVectorMachineClassifier', 'supportVectorMachineClassifier.pkl'],
+    ['multiLayerPerceptronClassifier','multiLayerPerceptronClassifier.pkl']
+]
+

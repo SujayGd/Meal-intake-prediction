@@ -1,22 +1,15 @@
+  
 
 # Installation instructions
 
   
 
-After cloning the repository, Make sure you have Python3.
+After cloning the repository, Make sure you have Python3 and pip install.
 
- 
+
 
 -  [https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-
-
-Create a new virtual environment and activate it.
-
-  
-
-    python3 -m venv /path/to/new/virtual/environment_name
-    source /path/to/new/virtual/environment_name/bin activate
+ - https://pip.pypa.io/en/stable/installing/
 
 Now install all the required libraries. Make sure you're inside the project directory before running the command.
 
@@ -24,10 +17,29 @@ Now install all the required libraries. Make sure you're inside the project dire
 
     pip install -r requirements.txt
 
-  
+
+  # Pre - running instructions
+  Keep the input data csv file **in the same directory as `main.py`**
   
   # Running instructions
   
-Run program using python or python3
+Run program from inside the project directory using 
 
-    python main.py
+    python main.py <filename>
+
+filename is the name of the CSV you will put as input for testing data.
+
+**For eg.**
+
+    python main.py testsampleinput.csv
+
+  # Codebase and outputs
+
+
+ 1. Codebase - contains the entire codebase with 4 classifier models and meal/no-meal data.
+ 2. Outputs - classifier labels are stored in **classifier_predictions.csv** for each classifier.
+ 
+	 Meal Taken label is represented by 1 and No Meal Taken is represented by 0.
+
+
+<br/>
