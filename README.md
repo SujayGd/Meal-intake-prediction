@@ -33,11 +33,10 @@ filename is the name of the CSV you will put as input for testing data.
 
     python main.py testsampleinput.csv
 
-  # Codebase and outputs
+  # Outputs
 
 
- 1. Codebase - contains the entire codebase with 4 classifier models and meal/no-meal data.
- 2. Outputs - classifier labels are stored in **classifier_predictions.csv** for each classifier.
+ Outputs - classifier labels are stored in **classifier_predictions.csv** for each classifier.
  
 	 Meal Taken label is represented by 1 and No Meal Taken is represented by 0.
 
